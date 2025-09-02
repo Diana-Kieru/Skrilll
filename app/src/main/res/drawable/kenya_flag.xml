@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Black stripe (top) -->
+    <item android:top="0dp" android:bottom="75dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#000000" />
+        </shape>
+    </item>
+
+    <!-- White fimbriation (top) -->
+    <item android:top="25dp" android:bottom="70dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Red stripe (middle) -->
+    <item android:top="30dp" android:bottom="45dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#DC143C" />
+        </shape>
+    </item>
+
+    <!-- White fimbriation (bottom) -->
+    <item android:top="55dp" android:bottom="25dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Green stripe (bottom) -->
+    <item android:top="60dp" android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#006B3C" />
+        </shape>
+    </item>
+
+    <!-- Shield outline -->
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <solid android:color="#8B4513" />
+            <size android:width="40dp" android:height="50dp" />
+        </shape>
+    </item>
+
+    <!-- Shield interior -->
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <solid android:color="#D2691E" />
+            <size android:width="32dp" android:height="42dp" />
+        </shape>
+    </item>
+
+    <!-- Shield boss (center knob) -->
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <solid android:color="#8B4513" />
+            <size android:width="12dp" android:height="12dp" />
+        </shape>
+    </item>
+
+    <!-- Left spear (simplified as rectangle) -->
+    <item android:gravity="center" android:left="-30dp">
+        <rotate android:fromDegrees="45">
+            <shape android:shape="rectangle">
+                <solid android:color="#8B4513" />
+                <size android:width="2dp" android:height="60dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- Right spear (simplified as rectangle) -->
+    <item android:gravity="center" android:left="30dp">
+        <rotate android:fromDegrees="-45">
+            <shape android:shape="rectangle">
+                <solid android:color="#8B4513" />
+                <size android:width="2dp" android:height="60dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- Spear tips -->
+    <item android:gravity="center" android:left="-18dp" android:top="-18dp">
+        <shape android:shape="oval">
+            <solid android:color="#696969" />
+            <size android:width="4dp" android:height="8dp" />
+        </shape>
+    </item>
+
+    <item android:gravity="center" android:left="18dp" android:top="-18dp">
+        <shape android:shape="oval">
+            <solid android:color="#696969" />
+            <size android:width="4dp" android:height="8dp" />
+        </shape>
+    </item>
+</layer-list>
